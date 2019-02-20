@@ -29,10 +29,10 @@
 #include "sass2scss.h"
 
 #ifdef _WIN32
-# include <windows.h>
+# include <windows.h> // [amalgamate:leave]
 
 # ifdef _MSC_VER
-# include <codecvt>
+# include <codecvt> // [amalgamate:leave]
 inline static std::string wstring_to_string(const std::wstring& wstr)
 {
     std::wstring_convert<std::codecvt_utf8<wchar_t>, wchar_t> wchar_converter;

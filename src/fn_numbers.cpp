@@ -17,8 +17,8 @@
 #include "fn_numbers.hpp"
 
 #ifdef __MINGW32__
-#include "windows.h"
-#include "wincrypt.h"
+#include "windows.h" // [amalgamate:leave]
+#include "wincrypt.h" // [amalgamate:leave]
 #endif
 
 namespace Sass {

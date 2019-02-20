@@ -3,9 +3,9 @@
 
 #include <stddef.h>
 #include <stdbool.h>
-#include <sass/base.h>
-#include <sass/values.h>
-#include <sass/functions.h>
+#include "sass/base.h"
+#include "sass/values.h"
+#include "sass/functions.h"
 
 #ifdef __cplusplus
 extern "C" {
